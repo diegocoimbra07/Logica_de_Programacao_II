@@ -9,7 +9,7 @@ public class Questao1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int anoNascimento, anoAtual, idade, idadeSemanas;
-        System.out.println("Digite o ano de nascimento: ");
+        System.out.println("Digite o ano de nascimento: "); 
         anoNascimento = input.nextInt();
         System.out.println("Digite o ano atual: ");
         anoAtual = input.nextInt();
