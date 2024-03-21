@@ -24,7 +24,7 @@ public class Questao1 {
         int num3 = scanner.nextInt();
 
         // Resultado na tela
-        System.out.println(" O dobro do primeiro número é " + Dobro.dobrar(num1));
+        System.out.println("O dobro do primeiro número é " + Dobro.dobrar(num1));
         System.out.println("O dobro do segundo número é: " + Dobro.dobrar(num2));
         System.out.println("O dobro do terceiro número é: " + Dobro.dobrar(num3));
     } 

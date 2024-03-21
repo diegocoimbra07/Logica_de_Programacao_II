@@ -1,5 +1,5 @@
 /*2 - Faça um programa que receba a medida de um ângulo em graus, 
-calcule e imprima o seno e o co-seno desse ângulo.  */
+calcule e imprima o seno e o cosseno desse ângulo.  */
 
 import java.util.Scanner;
 public class Questao2 {
@@ -8,8 +8,8 @@ public class Questao2 {
         double angulo, seno, cosseno;
         System.out.println("Digite o angulo: ");
         angulo = input.nextDouble();
-        seno = Math.sin(angulo);
-        cosseno = Math.cos(angulo);
+        seno = Math.sin(Math.toRadians(angulo));
+        cosseno = Math.cos(Math.toRadians(angulo));
         System.out.println("Seno: " + seno);
         System.out.println("Cosseno: " + cosseno);
     }
