@@ -3,7 +3,7 @@ do 1º trimestre e escreva o mês correspondente; caso o usuário
 digite o número fora do intervalo deverá aparecer inválido. */
 
 package Aula8_15_3;
-
+import java.util.Scanner;
  class Trimestre { //criando a classe
     public String MesTrimestre(int mes){ // metodo público que recebe inteiro mes
         switch (mes){ // valor da variável
@@ -20,9 +20,13 @@ package Aula8_15_3;
  
 
 public static void Questao3(String[] args) {
+    Scanner scanner = new Scanner(System.in); // entrada
+    System.out.println("Digite um número de 0 a 4: "); //pedir número ao usuário
+
     Trimestre trimestre = new Trimestre(); //criando uma instância da classe
     for (int i = 0; i < 5; i++){ // interar de 0 a 4
         System.out.println(i + ": " + trimestre.MesTrimestre(i));
+    scanner.close();
     }
 }
 }
