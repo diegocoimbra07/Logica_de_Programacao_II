@@ -1,3 +1,5 @@
+package Aula10_22_3;
+
 /*6 - Faça um programa que receba duas frases distintas e imprima de 
 maneira invertida, trocando as letras `as` por *. */
 
