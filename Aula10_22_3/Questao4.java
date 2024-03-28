@@ -1,20 +1,18 @@
-/*3 - Faça um programa que receba uma palavra e a 
-imprima de trás para-frente */
+/*4 - Faça um programa que conte o número de 1’s que aparecem em um 
+string. Exemplo: “0011001”-> 3 */
 
-package Aula10_22_3;
 
-import java.util.Scanner; //importar a classe Scanner
 
 public class Questao4 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // entrada do úsuario
-
-        System.out.println("Digita uma palavra: "); //solicitar entrada do usuário
-        String palavra = scanner.nextLine(); // variável palavra recebe a entrada do usuário
-        scanner.close(); // fechar o scanner
-        
-        String palavraInvertida = new StringBuilder(palavra).reverse().toString(); // variável palavraInvertida recebe a palavra invertida
-
-        System.out.println("Palavra de trás para frente é: " + palavraInvertida); //imprimir a palavra invertida
-    }    
+        String palavra = "0011001";
+        int contador = 0;
+        for (int i = 0; i < palavra.length(); i++) {
+            if (palavra.charAt(i) == '1') {
+                contador++;
+            }
+        }
+        System.out.println("Número de 1's na palavra: " + contador);
+    }
+    
 }
