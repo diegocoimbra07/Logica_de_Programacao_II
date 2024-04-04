@@ -1,5 +1,5 @@
 /*Questão 4 - Criar uma programa que receba um vetor de números inteiros de 10 posições. 
-O programa deve inverter a ordem dos elementos do vetor de modo que o 1º vire o último e o 2º vire o penúltimo e assim sucessivamente. */
+O programa deve inverter a ordem dos elementos do vetor de modo que o 1º vire o último e o 2º vire o penúltimo e assim sucessivamente.*/
 package Aula11_28_3; //declaração do pacote
 
 import java.util.Scanner; //importação da classe Scanner
