@@ -5,7 +5,7 @@ public class Exemplo1 {
 
     public static void metodo ( ) {
         String nome;
-        this.nome = "Diego";
+        nome = "Diego";
     }
     
 }

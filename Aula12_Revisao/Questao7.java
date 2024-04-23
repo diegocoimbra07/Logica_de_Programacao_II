@@ -17,4 +17,5 @@ public class Questao7 {
         }
         
         System.out.println("A soma dos números cujos quadrados são menores do que 225 é: " + soma);
+    }
 }

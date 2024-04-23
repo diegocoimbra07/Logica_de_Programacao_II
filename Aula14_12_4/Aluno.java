@@ -1,18 +1,33 @@
 package Aula14_12_4;
 
 public class Aluno {
-    long matricula;
-    String nome;
+    private String nome;
+    private String matricula;
+    private int idade;
 
-    public void pegarLivro(String id, String nome){
+    // Getters
+    public String getNome() {
+        return nome;
+    }
 
+    public String getMatricula() {
+        return matricula;
     }
-    public String fazerLogin (String usuario, String senha){
-        return "Se logou ou não";
-        
+
+    public int getIdade() {
+        return idade;
     }
-    
-    public void setMatricula (long matricula){
+
+    // Setters
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setMatricula(String matricula) {
         this.matricula = matricula;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }
